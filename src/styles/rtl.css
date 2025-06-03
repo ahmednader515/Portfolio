@@ -1,0 +1,51 @@
+/* RTL specific styles */
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Make Experience section LTR */
+#experience,
+#experience * {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Flip icons and images that need to be mirrored */
+.icon-flip {
+  transform: scaleX(-1);
+}
+
+/* Adjust margins and paddings for RTL */
+.ml-auto {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+.mr-auto {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+
+/* Adjust flexbox for RTL */
+.flex-row {
+  flex-direction: row-reverse;
+}
+
+/* Adjust text alignment for RTL */
+.text-left {
+  text-align: right;
+}
+
+.text-right {
+  text-align: left;
+}
+
+/* Adjust float properties for RTL */
+.float-left {
+  float: right;
+}
+
+.float-right {
+  float: left;
+} 
